@@ -1,0 +1,108 @@
+/* スマホのポケモンロトム図鑑風のデザインを適用 */
+
+body {
+    background-color: #f5f5f5;
+    font-family: "DotGothic16", sans-serif;
+    display: flex;
+    justify-content: center;
+    height: 95vh;
+    margin: 0;
+}
+
+.tech-machine {
+    background-color: #ffffff;
+    border: 5px solid #3b4cca; 
+    border-radius: 20px;
+    width: 500px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    background-color: #3b4cca; /* ポケモンブルー */
+    color: #ffffff;
+    width: 100%;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.body {
+    padding: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+
+
+.info input {
+    width: 63.5%;
+    padding: 10px;
+    border: 2px solid #3b4cca;
+    border-radius: 10px;
+    font-size: 16px;
+    font-family: "DotGothic16", sans-serif;
+}
+
+.info button {
+    padding: 12px;
+    background-color: #3b4cca; 
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.info button:hover {
+    background-color: #2d3994;
+}
+
+#list {
+    padding-inline-start: 0%;
+}
+
+.lis{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+#list li{
+    width: 75%;
+    margin-left: 0;
+    padding: 17px;
+    background-color: #c2eeff; 
+    border-radius: 10px;
+    font-size: 16px;
+    list-style: none;
+}
+
+#list button{
+    padding: 17px;
+    margin-left: 10px;
+    background-color: #3b4cca; 
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+#list button:hover{
+    background-color: #2d3994;
+}
